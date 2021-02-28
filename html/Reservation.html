@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HALcinema/予約画面</title>
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="Reservation">
+        <div class="Reservation_wrap">
+            <div id="Reservation_img"></div>
+            <div class="Reservation_details_wrap">
+                <h2 id="Reservation_title"></h2>
+                <div class="dropmanue">
+                    <div class="dropmanue_contents">
+                        <p>日時</p>
+                        <select id="time">
+                            <option value="0">11:00~</option>
+                            <option value="1">12:00~</option>
+                            <option value="2">13:00~</option>
+                            <option value="3">14:00~</option>
+                            <option value="4">15:00~</option>
+                            <option value="5">16:00~</option>
+                        </select>
+                    </div>
+                    <div class="dropmanue_contents">
+                        <p>席数</p>
+                        <select onchange="sum_chair(value)" id="chairs">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="chair_select"></div>
+                <div id="money">
+                    <p>御請求額</p>
+                    <div id="money_sum">0円</div>
+                </div>
+                <a href="../html/Personalinformation.html?" id="url" onclick="next()">
+                <button class="next_btn" value="aaaaa" >
+                <img src="https://firebasestorage.googleapis.com/v0/b/halcinema-a6901.appspot.com/o/you.png?alt=media&token=334a04cd-151c-48e5-9dae-ab876549adc1" alt="">
+                </button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="../js/Reservation.js"></script>
+  </body>
+</html>

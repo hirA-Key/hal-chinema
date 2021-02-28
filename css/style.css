@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+input,
+button,
+select,
+textarea {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  font: inherit;
+  outline: none;
+}
+
+.Reservation {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Reservation_wrap {
+  width: 1300px;
+  height: auto;
+  background-color: #3a3d43;
+  border-radius: 30px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Reservation_wrap .Reservation_details_wrap {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Reservation_wrap .Reservation_details_wrap h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 2.2em;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.Reservation_wrap .Reservation_details_wrap .dropmanue {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.Reservation_wrap .Reservation_details_wrap .dropmanue .dropmanue_contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 35%;
+}
+
+.Reservation_wrap .Reservation_details_wrap .dropmanue .dropmanue_contents p {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.Reservation_wrap .Reservation_details_wrap .dropmanue .dropmanue_contents select {
+  font-weight: 600;
+  position: relative;
+  font-family: inherit;
+  background-color: transparent;
+  width: 100%;
+  padding: 10px 10px 10px 0;
+  font-size: 18px;
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}
+
+.Reservation_wrap .Reservation_details_wrap .dropmanue .dropmanue_contents select:focus {
+  outline: none;
+}
+
+#Reservation_img {
+  height: 700px;
+}
+
+#Reservation_img img {
+  height: 700px;
+  border-radius: 30px;
+}
+
+.chair {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #d5d5d5;
+}
+
+.chair div {
+  width: 33px;
+  height: 33px;
+  margin: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.chair .chair_unused {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/halcinema-a6901.appspot.com/o/kexuanzuobiankuang.png?alt=media&token=2b065c96-5a75-47dc-8d3f-6378da109ee4");
+  background-size: cover;
+}
+
+.chair .chair_select {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/halcinema-a6901.appspot.com/o/kexuanzuobiankuang2.png?alt=media&token=fc45373c-3e5c-4789-9f4e-1998912bf5a7");
+  background-size: cover;
+}
+
+.chair .chair_used {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/halcinema-a6901.appspot.com/o/bukexuanzuo.png?alt=media&token=d04633fd-0532-4eb0-8b33-ba2cbc2ee9e4");
+  background-size: cover;
+}
+
+#money {
+  margin-left: 5%;
+  padding-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#money p {
+  color: #fff;
+  padding: 0 10px;
+  font-weight: 600;
+}
+
+#money div {
+  font-weight: 600;
+  color: #acb6e5;
+  background: -webkit-linear-gradient(90deg, #7bcfae, #9bcce9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.next_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 200px;
+  right: 50px;
+  bottom: 50px;
+  outline: none;
+  background: -webkit-gradient(linear, left top, right top, from(#7bcfae), to(#9bcce9));
+  background: linear-gradient(to right, #7bcfae, #9bcce9);
+}
+
+.next_btn img {
+  width: 50%;
+}
+
+.input_inf {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  width: 60%;
+}
+
+.input_inf p {
+  min-width: 200px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 15px 0 15px 4vw;
+}
+
+.input_inf input {
+  margin: 15px 0;
+  color: #fff;
+  width: 300px;
+  background-color: #3a3d43;
+  border-bottom: solid 1px #fff;
+}
+
+.payment {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 10px 0 10px 4vw;
+}
+
+.payment .payment_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 0;
+}
+
+.payment .payment_btn div {
+  margin-right: 30px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 170px;
+  background: -webkit-gradient(linear, left top, right top, from(#7bcfae), to(#9bcce9));
+  background: linear-gradient(to right, #7bcfae, #9bcce9);
+}
+
+.cardwrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: #fff;
+}
+
+.cardwrap div p {
+  min-width: 200px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.cardwrap div input {
+  margin: 15px 0;
+  color: #fff;
+  width: 300px;
+  background-color: #3a3d43;
+  border-bottom: solid 1px #fff;
+}
+
+.subcardwrap {
+  color: #fff;
+  margin-left: 3vw;
+}
+
+.subcardwrap p {
+  min-width: 200px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.subcardwrap input {
+  margin: 15px 0;
+  color: #fff;
+  width: 300px;
+  padding-right: 53%;
+  background-color: #3a3d43;
+  border-bottom: solid 1px #fff;
+}
+/*# sourceMappingURL=style.css.map */

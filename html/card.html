@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HALcinema/予約画面</title>
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="Reservation">
+        <div class="Reservation_wrap">
+            <div id="Reservation_img"></div>
+            <div class="Reservation_details_wrap">
+            <h2>ご使用になるクレジットカード情報を入力してください</h2>
+                <div class="cardwrap">
+                    <div>
+                    <p>お名前</p>
+                    <input type="text">
+                    </div>
+                    <div>
+                    <p>有効期限</p>
+                    <input type="text">
+                    </div>
+                </div>
+                <div class="subcardwrap">
+                    <p>メールアドレス</p>
+                    <input type="text">
+                </div>
+                <div class="subcardwrap">
+                    <p>セキュリティコード</p>
+                    <input type="text">
+                </div>
+                <a href="http://localhost:8000/welcome?" id="url">
+                <button class="next_btn" value="aaaaa">
+                <img src="https://firebasestorage.googleapis.com/v0/b/halcinema-a6901.appspot.com/o/you.png?alt=media&token=334a04cd-151c-48e5-9dae-ab876549adc1" alt="" onclick="next()">
+                </button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="../js/Reservation.js"></script>
+  </body>
+</html>
