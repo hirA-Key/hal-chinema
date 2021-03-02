@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HALcinema/予約画面</title>
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>  
+<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-firestore.js"></script>
+<script>
+  firebase.initializeApp({
+    // 控えておいたapiキーとプロジェクトIDを設定する
+    apiKey: 'AIzaSyCXSp_TJfc1QZDDhujqiqRx2tod9Nyi8W0',
+    projectId: 'halcinema-a6901',
+  });
+  const db = firebase.firestore();
+</script>
+  </head>
+  <body>
+    <div class="Reservation">
+        <div class="Reservation_wrap">
+           <p class="kanryou">お買い上げ有難うございました！！！</p>
+        </div>
+    </div>
+  </body>
+</html>

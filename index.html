@@ -4,11 +4,219 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/sanitize.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/home.css">
   <title>HAL cinema</title>
 </head>
 <body>
   <div class="container">
-    <h1>みんな頑張ろう</h1>
+    <header>
+      <nav id="global-navi">
+        <ul class="menu">
+          <li class="logo"><a href="#"><img src="./images/logo.svg" alt=""></a></li>
+            <li class="items"><a href="#">トップページ</a></li>
+            <li class="items"><a href="./html/NowPlaing.html">映画一覧</a></li>
+            <li class="items"><a href="./html/ComingSoon.html">公開予定</a></li>
+            <li class="login"><a href="login.html">ログイン</a></li>
+        </ul>
+      </nav>
+
+    </header>
+    <div class="slider">
+      <div id="theTarget">
+        <div style="background-image: url(./images/mainimg.jpg)"></div>
+      </div>
+    </div>
+
+    <div class="info_wrap">
+      <section>
+        <div class="title_wrap">
+          <div class="title_text">
+            <h2>上映中</h2>
+            <span class="sub_text">Now playing</span>
+          </div>
+          <div class="title_link">
+            <a href="./html/NowPlaing.html">もっと見る>></a>
+          </div>
+        </div>
+        <section class="movie_card_wrap">
+          <div class="movie_card">
+            <div class="big_card_img">
+              <img src="http://image.tmdb.org/t/p/w500/m9cn5mhW519QKr1YGpGxNWi98VJ.jpg" alt="movie_img">
+            </div>
+            <div class="big_card_title">
+              <p class="movie_title">劇場版「鬼滅の刃」無限列車編</p>
+            </div>
+            <div class="big_card_btn">
+              <a href="./html/Reservation.html?劇場版「鬼滅の刃」無限列車編"><img src="./images/dianyingpiao.svg" alt="ticket">チケット予約</a>
+            </div>
+          </div>
+          <div class="small_card_wrap">
+            <div class="movie_card">
+              <div class="small_card_img">
+                <img src="http://image.tmdb.org/t/p/w500/mpNG6z33xOtUWuOU83BE0bvorxi.jpg" alt="movie_img">
+              </div>
+              <div class="small_card_title">
+                <p class="movie_title">ヴァイオレット・...
+                </p>
+              </div>
+              <div class="small_card_btn">
+                <a href="./html/Reservation.html?ヴァイオレット"><img src="./images/dianyingpiao.svg" alt="ticket">チケット予約</a>
+              </div>
+            </div>
+            <div class="movie_card">
+              <div class="small_card_img">
+                <img src="http://image.tmdb.org/t/p/w500/iChWOvvj0fB5PwTDBGupPvweuFK.jpg" alt="movie_img">
+              </div>
+              <div class="small_card_title">
+                <p class="movie_title">呪怨 ザ・グラッジ3</p>
+              </div>
+              <div class="small_card_btn">
+                <a href="./html/Reservation.html?呪怨"><img src="./images/dianyingpiao.svg" alt="ticket">チケット予約</a>
+              </div>
+            </div>
+            <div class="movie_card">
+              <div class="small_card_img">
+                <img src="./images/movie_img01.jpg" alt="movie_img">
+              </div>
+              <div class="small_card_title">
+                <p class="movie_title">No More 映画泥棒！</p>
+              </div>
+              <div class="small_card_btn">
+                <a href="#"><img src="./images/dianyingpiao.svg" alt="ticket">チケット予約</a>
+              </div>
+            </div>
+            <div class="movie_card">
+              <div class="small_card_img">
+                <img src="./images/movie_img01.jpg" alt="movie_img">
+              </div>
+              <div class="small_card_title">
+                <p class="movie_title">No More 映画泥棒！</p>
+              </div>
+              <div class="small_card_btn">
+                <a href="#"><img src="./images/dianyingpiao.svg" alt="ticket">チケット予約</a>
+              </div>
+            </div>
+            <div class="movie_card">
+              <div class="small_card_img">
+                <img src="./images/movie_img01.jpg" alt="movie_img">
+              </div>
+              <div class="small_card_title">
+                <p class="movie_title">No More 映画泥棒！</p>
+              </div>
+              <div class="small_card_btn">
+                <a href="#"><img src="./images/dianyingpiao.svg" alt="ticket">チケット予約</a>
+              </div>
+            </div>
+            <div class="movie_card">
+              <div class="small_card_img">
+                <img src="./images/movie_img01.jpg" alt="movie_img">
+              </div>
+              <div class="small_card_title">
+                <p class="movie_title">No More 映画泥棒！</p>
+              </div>
+              <div class="small_card_btn">
+                <a href="#"><img src="./images/dianyingpiao.svg" alt="ticket">チケット予約</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section>
+        <div class="title_wrap">
+          <div class="title_text">
+            <h2>公開予定</h2>
+            <span class="sub_text">coming soon</span>
+          </div>
+          <div class="title_link">
+            <a href="./html/ComingSoon.html">もっと見る>></a>
+          </div>
+        </div>
+        <section class="movie_card_wrap">
+          <div class="card_wrap">
+            <div class="movie_card">
+              <div class="small_card_img">
+                <img src="./images/movie_img01.jpg" alt="movie_img">
+              </div>
+              <div class="small_card_title">
+                <p class="movie_title">No More 映画泥棒！</p>
+              </div>
+              <div class="small_card_btn">
+                <a href="#"><img src="./images/dianyingpiao.svg" alt="ticket">チケット予約</a>
+              </div>
+            </div>
+            <div class="movie_card">
+              <div class="small_card_img">
+                <img src="./images/movie_img01.jpg" alt="movie_img">
+              </div>
+              <div class="small_card_title">
+                <p class="movie_title">No More 映画泥棒！</p>
+              </div>
+              <div class="small_card_btn">
+                <a href="#"><img src="./images/dianyingpiao.svg" alt="ticket">チケット予約</a>
+              </div>
+            </div>
+            <div class="movie_card">
+              <div class="small_card_img">
+                <img src="./images/movie_img01.jpg" alt="movie_img">
+              </div>
+              <div class="small_card_title">
+                <p class="movie_title">No More 映画泥棒！</p>
+              </div>
+              <div class="small_card_btn">
+                <a href="#"><img src="./images/dianyingpiao.svg" alt="ticket">チケット予約</a>
+              </div>
+            </div>
+            <div class="movie_card">
+              <div class="small_card_img">
+                <img src="./images/movie_img01.jpg" alt="movie_img">
+              </div>
+              <div class="small_card_title">
+                <p class="movie_title">No More 映画泥棒！</p>
+              </div>
+              <div class="small_card_btn">
+                <a href="#"><img src="./images/dianyingpiao.svg" alt="ticket">チケット予約</a>
+              </div>
+            </div>
+            <div class="movie_card">
+              <div class="small_card_img">
+                <img src="./images/movie_img01.jpg" alt="movie_img">
+              </div>
+              <div class="small_card_title">
+                <p class="movie_title">No More 映画泥棒！</p>
+              </div>
+              <div class="small_card_btn">
+                <a href="#"><img src="./images/dianyingpiao.svg" alt="ticket">チケット予約</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </div>
+
+    <footer class="footer">
+      <div class="footer_copyright">
+        <small>"May the force be with you."</small><br>
+        <small id="copy">(c) 2020 HALcinema</small>
+      </div>
+    </footer>
   </div>
+  <script>
+      var getNowPlayingURL = "https://api.themoviedb.org/3/search/movie?api_key=1163a77321ef2e19206fac34c16e24f6&language=ja-JA&query=鬼滅の刃&page=1&include_adult=false";
+        fetch(getNowPlayingURL)
+        .then(response => {
+        return response.json();
+        })
+        .then(data => {
+        var images = "";
+        data.results.map(movie => {
+
+            });
+        })
+        .catch(error => {
+        console.log(error);
+        });
+  </script>
 </body>
 </html>

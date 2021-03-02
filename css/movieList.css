@@ -1,0 +1,52 @@
+section {
+  width: 1160px;
+  margin: 50px auto;
+}
+.movie_card_wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.card_wrap {
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+  justify-content: space-between;
+}
+.movie_card {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.middle_card_img img {
+  width: 220px;
+  height: 330px;
+  border-radius: 15px;
+}
+.middle_card_title {
+  margin: 10px;
+}
+.middle_card_title p {
+  color: #fefefe;
+  font-size: 16px;
+  font-weight: 300;
+}
+.middle_card_btn a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 34px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  overflow: hidden;
+  letter-spacing: 2px;
+  border-radius: 40px;
+  background: linear-gradient(
+    90deg,
+    #7BCFAE,
+    #9BCCE9
+  );
+}
