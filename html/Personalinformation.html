@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>HALcinema/予約画面</title>
     <link href="../css/style.css" rel="stylesheet" type="text/css">
+    
+    
   </head>
   <body>
     <div class="Reservation">
@@ -36,20 +38,20 @@
                     </div>
                 </div>
                 <div class="input_inf">
-                    <p>名前</p>
-                    <input type="text">
+                    <p id="seet">名前</p>
+                    <input type="text" id="name">
                 </div>
                 <div class="input_inf">
                     <p>メールアドレス</p>
-                    <input type="text">
+                    <input type="text" id="mail">
                 </div>
                 <div class="input_inf">
                     <p>電話番号</p>
-                    <input type="text">
+                    <input type="text" id="phone">
                 </div>
                 <div class="input_inf">
                     <p>座席</p>
-                    <input type="text" id="seet" disabled>
+                    <input type="text" id="set" disabled>
                 </div>
                 <div class="payment">
                 <p>情報に間違いが無いか確認の上支払い方法をお選びください</p>
@@ -63,8 +65,8 @@
                     <div id="money_sum">0円</div>
                 </div>
                 <a href="./card.html?" id="url">
-                <button class="next_btn" value="aaaaa">
-                <img src="https://firebasestorage.googleapis.com/v0/b/halcinema-a6901.appspot.com/o/you.png?alt=media&token=334a04cd-151c-48e5-9dae-ab876549adc1" alt="" onclick="next()">
+                <button class="next_btn" onclick="nextcard()">
+                <img src="https://firebasestorage.googleapis.com/v0/b/halcinema-a6901.appspot.com/o/you.png?alt=media&token=334a04cd-151c-48e5-9dae-ab876549adc1" alt="">
                 </button>
                 </a>
             </div>

@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #F6F6F6;
+  background: #2D3036;
+  width: 100%;
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+  color: #fefefe;
+}
+a:hover {
+  color: #ccc;
+}
+a:hover img {
+  opacity: 0.8;
+}
+.text {
+  line-height: 1.8em;
+  letter-spacing: 1px;
+}
+
+/* ヘッダー */
+nav {
+  width: 100vw;
+  background-color: #1F2025;
+  color: #fefefe;
+}
+nav ul {
+  width: 100vw;
+  display: flex;
+  flex-flow: row;
+  margin: 0;
+  padding: 6px;
+  align-items: center;
+}
+nav li.items {
+  padding-right: 25px;
+}
+nav li.logo {
+  height: 65px;
+  width: auto;
+  margin: 10px 25px 0px 25px;
+}
+nav li.login {
+  margin-left: auto;
+  margin-right: 25px;
+}
+
+/* タイトル */
+.title_wrap {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 15px;
+  border-left: 8px solid #7BCFAE;
+  border-bottom: 3px solid #7BCFAE;
+  margin-bottom: 30px;
+}
+.title_text {
+  display: flex;
+  flex-direction: column;
+}
+.title_text h2 {
+  font-size: 18px;
+}
+.title_text span {
+  font-size: 8px;
+  font-weight: lighter;
+}
+.title_link {
+  margin-left: auto;
+  align-items: inherit;
+}
+.title_link a {
+  font-size: 8px;
+  font-weight: lighter;
+  line-height: 60px;
+}
+
+/* フッター */
+.footer {
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  clear: both;
+  background: #1F2025;
+}
+.footer_copyright {
+  width: 100%;
+  height: 100px;
+  float: left;
+  color: #FeFeFe;
+  text-align: center;
+  line-height: 35px;
+}
+.footer_copyright .copy {
+  text-align: center;
+}
+.footer_top {
+  text-align: right;
+}

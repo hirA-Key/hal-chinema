@@ -4,6 +4,16 @@
     <meta charset="utf-8">
     <title>HALcinema/予約画面</title>
     <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-firestore.js"></script>
+<script>
+  firebase.initializeApp({
+    // 控えておいたapiキーとプロジェクトIDを設定する
+    apiKey: 'AIzaSyCXSp_TJfc1QZDDhujqiqRx2tod9Nyi8W0',
+    projectId: 'halcinema-a6901',
+  });
+  const db = firebase.firestore();
+</script>
   </head>
   <body>
     <div class="Reservation">
@@ -29,9 +39,9 @@
                     <p>セキュリティコード</p>
                     <input type="text">
                 </div>
-                <a href="http://localhost:8000/welcome?" id="url">
-                <button class="next_btn" value="aaaaa">
-                <img src="https://firebasestorage.googleapis.com/v0/b/halcinema-a6901.appspot.com/o/you.png?alt=media&token=334a04cd-151c-48e5-9dae-ab876549adc1" alt="" onclick="next()">
+                <a href="#" id="url" onclick="card()">
+                <button class="next_btn">
+                <img src="https://firebasestorage.googleapis.com/v0/b/halcinema-a6901.appspot.com/o/you.png?alt=media&token=334a04cd-151c-48e5-9dae-ab876549adc1" alt="">
                 </button>
                 </a>
             </div>
